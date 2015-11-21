@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Volume Power</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_boot">Boot</string>
+    <string name="pref_boot_sum">Start Volume Power on boot up</string>
+    <string name="pref_enable">Enable/Disable Volume Power</string>
+    <string name="pref_enable_sum">Volume Power is currently enabled</string>
+    <string name="pref_disable_sum">Volume Power is currently disabled</string>
+    <string name="pref_screen">Screen Off</string>
+    <string name="pref_screen_sum">Turn screen off from notification bar</string>
+    <string name="ok">OK</string>
+    <string name="dialog_mesg">This preference will take effect on restart of the service.</string>
+    <string name="dialog_warning_mesg">Warning! Removing the screen off notification from the notification bar greatly increases the likelihood that the operating system will kill the app if it stays in the background too long, rendering it useless until a manual restart. This preference will take hold on restart of the service.</string>
+    <string name="warning_mesg">"By disabling this app's ability to lock your device's screen greatly increases the likelihood that the operating system will kill the app if it stays in the background too long."</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <Preference 
+        android:icon="@drawable/on" 
+        android:persistent="true" 
+        android:title="@string/pref_enable" 
+        android:key="pref_enable" 
+        android:summary="@string/pref_enable_sum" />
+    
+    <CheckBoxPreference 
+        android:persistent="true" 
+        android:title="@string/pref_boot" 
+        android:key="pref_boot" 
+        android:summary="@string/pref_boot_sum" 
+        android:defaultValue="false" />
+    
+    <CheckBoxPreference 
+        android:persistent="true" 
+        android:title="@string/pref_screen" 
+        android:key="pref_screen" 
+        android:summary="@string/pref_screen_sum" 
+        android:defaultValue="false" />
+    
+</PreferenceScreen>
